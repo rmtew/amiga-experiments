@@ -31,6 +31,6 @@ There are some niggling flaws however:
   This is easily avoided by only sending one command at a time.
 * The timer is reset every loop. This leaks a signal and will mean the
   yield will always immediately return. Clearing the signal manually is
-  the only way to deal with this and discussions on EAB resulted in no
-  clarity. Seems like a bug in the OS to me.
+  the only way to deal with this and [discussions on EAB](https://eab.abime.net/showthread.php?t=117721)
+  resulted in no clarity. Seems like a bug in the OS to me.
 
